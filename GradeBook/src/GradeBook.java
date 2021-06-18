@@ -1,13 +1,12 @@
 
 public class GradeBook {
 	private String unit;
-
+        private double[] grade;
+	 
 	public GradeBook(String unit, double[] grade) {
 		this.unit = unit;
 		this.grade = grade;
 	}
-	private double[] grade;
-	
 	public String getUnit() {
 		return unit;
 	}
